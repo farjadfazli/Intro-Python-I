@@ -19,11 +19,11 @@ print('z is "%s"' % z)
 # Use the 'format' string method to print the same thing
 
 print(format("x is {}".format(x)))
-print(format("y is {}".format(round(y,2))))
+print(format("y is {:.2f}".format(y)))
 print(format('z is "{}"'.format(z)))
 
 # Finally, print the same thing using an f-string
 
 print(f"x is {x}")
-print(f"y is {round(y,2)}")
+print(f"y is {y:.2f}")
 print(f'z is "{z}"')
